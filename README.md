@@ -1,6 +1,8 @@
 # DigisparkProjects
 All of the Digispark scripts you know and love :)
 
-Repository currently contains: (6/29/21)
+Repository currently contains: (6/30/21)
 
-Reverse shell payload
+Reverse Shell Payload
+Wifi Password Stealer
+Shutdown Script
